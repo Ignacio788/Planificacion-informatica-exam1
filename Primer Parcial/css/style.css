@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.student {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.student input[type=text],
+.student input[type=number],
+.student input[type=date] {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50vh;
+    margin: 20px;
+}
+
+.student label {
+    margin-left: 2em;
+    font-weight: bold;
+}
+
+.exam {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.exam input[type=date],
+.exam input[type=number],
+.exam select {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 40vh;
+    margin: 10px;
+}
+.exam label {
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.btn {
+    width: 40%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: brown;
+    transition: 1.5ms;
+}
+.env {
+    background-color: green;
+}
+.mst {
+    background-color: blue;
+}
+
