@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/text.js"></script>
+    <title>Segundo Parcial</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Ingreso de datos del examen...</h2>
+        <div class="form">
+            <div class="student">
+                <label for="dni">DNI:
+                    <input type="number" id="Dni" name="dni" placeholder="DNI">
+                </label>
+                <label for="apellido">Apellido:
+                    <input type="text" id="Apel" name="apel" placeholder="Apellido">
+                </label>
+                <label for="nombre">Nombre:
+                    <input type="text" id="Nbr" name="nbr" placeholder="Nombre">
+                </label>     
+                <label for="fnac">Fecha Nacimiento
+                    <input type="date" id="Fnac" name="fnac">
+                </label>
+            </div>
+            <div class="exam">
+                <label for="materia">Materia
+                    <select id="Materia">
+                        <option value="Lbtr">Laboratorio de programación I</option>
+                        <option value="so">Sistemas operativos</option>
+                        <option value="p2">Practica Profesionalizante II</option>
+                        <option value="bd">Base de Datos</option>
+                    </select>
+                </label>
+                <label for="fExam">Fecha del examen
+                    <input type="date" id="FExam" name="fExam">
+                </label>
+                <label for="nota">Nota
+                    <input type="number" id="Nota" name="nota">
+                </label>
+            </div>
+            <div class="button">
+                <input type="button" value="Enviar" class="btn env" onclick="return enviar()">
+                <input type="button" value="Mostrar" class="btn mst" onclick="return show()">
+                                       <!-- le puse un return a show que es el boton de mostrar-->
+            </div>                                                         
+        </div>
+    </div>
+</body>
+</html>
